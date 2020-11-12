@@ -1,0 +1,81 @@
+//Comandos básicos
+sudo su           - Acessar Root
+reboot            - Reiniciar imediatamente
+shutdown -c       - Cancelar Desligamento shutdown
+shutdown -a       - Desligar em minutos
+shutdown          - Desligar em 1min
+free -m           - Visualizar Mémoria utilizada
+clear             - Limpar comandos (control + l)
+exit              - Sair do Shell
+top               - Ver processos rodando em segundo plano
+iconfig           - Ip
+--version         - Visualizar Versão de um pacote
+java -jar         - Executar arquivo .jar
+
+
+//Gerenciar Documentos
+unzip            - Descompactar zip
+unrar            - Descompactar Rar
+gzip -k          - Compactar em .gz
+tar -vzxf        - Descompactar Tar.gz
+mv               - Mover arquivo ou pasta
+pwd              - Ver diretorio atual
+cd               - Navegar entre diretórios
+cd ..            - Voltar um diretório
+ls               - Listar arquivos e pastas
+ls -a            - Listar arquivos e pastas ocultas
+ls -i            - Mostrar arquivos e seus donos
+ls -m            - Mostrar arquivos com ,
+ls -1            - Listar e organizar em Linhas
+ls -p            - Mostrar arquivos com um a /
+ls -l            - Organanizado com Detalhes
+ls -n            - Organizado com Detlhes de Gid e Uid
+rm -rf           - Forçar remoção
+rmdir            - Remover pastas vazias
+rm               - Remover arquivos
+rm -l            - Remover com comfirmação
+touch            - Criar arquivos
+mkdir            - Criar pastas e Diretórios
+mkdir -p         - Criar Diretórios
+cat              - Visualizar conteudo do arquivo
+nano             - Editar arquivo pelo terminal
+cp               - copiar arquivos
+cp -r            - copiar pastas
+
+
+//Gerenciar Pacotes
+apt-get distro-upgrade       - Ataulizar a distribuição Linux
+apt update                   - Atualizar dependências de pacotes
+apt upgrade                  - Instalar dependências gerais do Linux
+apt-get install              - Instalar pacote via servidor
+dpkg -i                      - Instalar pacotes .deb Binário
+apt purge                    - Excluir pacote
+apt-cache dump               - Rever despejo de cache
+apt-cache stats              - Estáticas Básicas
+apt-get remove               - Remover pacotes
+deb-src http://              - Baixar pacote via servidor com código fonte
+deb http://                  - Baixar paocte via servidor
+wget                         - Instalar pacote via servidor de terceiros
+
+
+//Gerenciar Usuários e Grupos
+adduser             - Adicionar um user
+userdel             - Remover usuário
+usermod -a -g       - Adicionar usuário ao um grupo
+grupdel             - Remover um grupo
+grupadd             - Criar um grupo
+
+
+//Comandos Git
+apt install git                 - Instalar git via servidor
+git --version                   - Mostrar versão do git
+git config --global user.name   - Registrar nome público
+git config --global user.email  - Registrar email público
+git init                        - Rastrear pasta
+git status                      - Mostrar status de modficação
+git log                         - Mostrar Logs do projeto
+git commit -m                   - Comitar modificação
+git add                         - Adicionar ao container
+git add **                      - Adicionar todos ao container
+git log --graph                 - Mostrar Grafo de commits
+git checkout                    - Rastrear projeto
